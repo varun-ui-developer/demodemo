@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .grid-container {
+        border: 1px solid black;
+        /* height: 70vh; */
+        display: grid;
+        width: 50%;
+        grid-template-rows: 100px 300px 300px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "first first" "two three" "two four";
+        column-gap: 20px;
+      }
+      .grid {
+        border: 1px solid black;
+        transition: 5s;
+      }
+      .grid:hover{
+        font-size: 6em;
+      }
+      #grid-item1{
+        grid-area: first;
+      }
+      #grid-item2{
+        grid-area: two;
+      }
+      #grid-item3{
+        grid-area: three;
+      }
+      #grid-item4{
+        grid-area: four;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid" id="grid-item1"><h1>Man Found Dead In Boat On Lake</h1></div>
+      <div class="grid" id="grid-item2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure quia dolorem incidunt architecto aliquid odio, dolore in vero illum labore rem cumque, eveniet dolor possimus neque quaerat perferendis ab molestiae.</div>
+      <div class="grid" id="grid-item3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim repellendus velit sapiente beatae. Accusantium, harum veritatis officiis neque beatae repellat nam nemo odit consequatur quibusdam, distinctio quidem itaque libero in.</div>
+      <div class="grid" id="grid-item4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum consequuntur explicabo ducimus delectus provident minus fugit porro odio similique ratione id nulla, eveniet, voluptatibus, ea atque fugiat animi. Facere, eligendi.</div>
+    </div>
+  </body>
+</html>

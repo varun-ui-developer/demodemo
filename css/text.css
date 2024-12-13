@@ -1,0 +1,28 @@
+/* body{
+    background-color: black;
+    color: #d4d8eb;
+} */
+h1{
+    text-align: start;
+    /* text-decoration: underline wavy red 1px ; */
+    text-transform: uppercase;
+    text-shadow: -2px -1px 0px green;
+    font-size: 15rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    letter-spacing: 25px;
+
+}
+p{
+    /* text-align: justify; */
+    text-transform: capitalize;
+    /* text-indent: -200px; */
+    line-height: 50px;
+    /* width: 300px; */
+    word-wrap: break-word;
+    /* letter-spacing: 50px; */
+    word-spacing: 30px;
+}
+a{
+    text-decoration: none;
+}

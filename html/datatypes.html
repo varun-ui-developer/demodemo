@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="popup()">click me</button>
+    hellop
+    <script>
+      // Data types
+
+      //String
+      // 3 ways store
+      // single quotes
+      //   let str = "Varun \nnextline";
+      //   console.log(typeof str);
+
+      //   // double quotes
+      //   let str1 = "Varun's\n Hiii";
+      //   console.log(str1);
+      //   let namee = "Karthick";
+      //   let name1 = "Kishore";
+      //   let name2 = "Ramesh";
+      //   let name3 = "Varun";
+      //   // backticks- template string
+      //   let str3 = `Hi ${name2}!! Saptingala???`;
+      //   console.log(str3);
+
+      // Number
+
+      // let num = -9007199254740991
+      // console.log(num);
+      // console.log(typeof num);
+      // console.log(Number.MAX_SAFE_INTEGER);
+
+      // Boolean
+
+      // console.log(true);
+
+      // let a = null
+      // console.log(a);
+      // console.log(typeof a);
+      // let b
+      // console.log(b);
+      // console.log(typeof b);
+
+      // let temp = {
+      //     hi : "hello"
+      // }
+
+      // // Object
+      // let obj = {
+      //     varun : 10,
+      //     name : "Varun",
+      //     boo: true,
+      //     temp : temp,
+      // }
+
+      // console.log(obj);
+
+      // Alerts
+      // Simple Alert
+
+      // alert("Payment Successful")
+      // Confirm alert
+      //    let confrm = confirm("Are You sure ?? You want to exit")
+      //    console.log(confrm);
+
+      //prompt
+      //    let name = prompt("Hi what is your name???");
+      //    console.log(`Hi ${name} Saptingla????`)
+
+      // let a = 10;
+      // console.log(a);
+
+      // {
+      //   let a = 20;
+      //   console.log(a);
+      // }
+
+      // console.log(a);
+
+      // let a = 50;
+      // a = 40;
+      // a = 30;
+      // a = 20;
+
+      // let karthick_love = "abi"
+      // karthick_love = "nandhini"
+      // karthick_love = "priya"
+
+      // const KARTICK_LOVER = "Abi"
+
+      // KARTICK_LOVER = "Priya"
+      // console.log(kartick_love);
+
+      // function declaration
+
+      // console.log(a);
+
+      // var a = 10
+
+      // console.log(a);
+
+      // function greet() {
+      //   console.log("Hiii");
+      // }
+
+      // greet();
+
+      // // function expression
+
+      // let func = function () {
+      //   let a = 10;
+      //   let b = 30;
+
+      //   let c = a + b;
+
+      //   return c;
+      // };
+      // func();
+
+      // console.log(func());
+
+      // // arrow function
+
+      // let arr = ()=>{
+      //   console.log("Hellooooo");
+      //   return
+      // }
+      // arr()
+
+      // let add = function (a, b) {
+      //   let c = a + b;
+      //   return c-50;
+      // };
+
+      // console.log();
+
+      // console.log(a+b);
+
+      // var a = 10;
+      // var b = 20
+      // console.log(a,b);
+
+      // Arithmetic Operator - Binary Operator
+
+      // Addition +
+
+      // let a = 20;
+      // let b = "30";
+
+      // console.log(a + b); //2030
+      // let a = 8;
+      // let b = Number("2");
+
+      // console.log(a % b); //NaN
+
+      // let balance = 25
+      // let kishore = 10
+
+      // // balance = balance + kishore
+      // balance += kishore //35
+      // balance -= kishore
+      // balance *= kishore
+      // balance /= kishore
+      // console.log(balance);//25 //10
+
+      // Comparison - boolean ==,!= ,>,<,>=,<=,===,!==
+      // console.log(10>5);
+      // console.log(10<10);
+      // console.log(10>=9);
+      // console.log(10=="10a");
+      // console.log(10!=20);
+      // console.log(10==="10");
+      // console.log(10!==20);
+
+      // increment operator, decrement operator
+
+      // unary operator
+
+      // pre - increment // post increment
+
+      //  let a = 25
+      //  let b = a-- + 23
+      //  let c = --a + b++ - 10
+      //  let d = ++a - --b + ++c - 60
+
+      //  console.log(a); //24  //24 //24
+      //  console.log(b); //49 //47 //48
+      //  console.log(c); //61 //61 //60 //62 //73
+      //  console.log(d); //-22 //-20 //-20
+
+      //  console.log(a--); //24  //24 //24
+      //  console.log(++b); //49 //47 //48
+      //  console.log(--c); //61 //61 //60 //62 //73
+      //  console.log(d++); //-22 //-20 //-20
+
+      //   console.log(a); //24  //24 //24
+      //  console.log(b); //49 //47 //48
+      //  console.log(c); //61 //61 //60 //62 //73
+      //  console.log(d); //-22 //-20 //-20
+
+      // logical operator
+
+      // and or not
+
+      // && || !
+      // let a = 20
+      // let b = true
+
+      // console.log(a<b || a>b);
+      // console.log(a==b && a<b);
+
+      // console.log((a++ == --b) || a>20);
+
+      // console.log(!b);
+
+      // console.log(false && true);
+
+      // function popup() {
+        // let inp = prompt("Enter Number from 1 to 10");
+        // if (inp<=10) {
+        //   console.log(inp);
+        //   alert(`${inp}`);
+        // }
+        // else if(inp>10 && inp<20){
+        //   alert("Entered number out of range")
+        // }
+        // else{
+        //   alert("Invalid input")
+        // }
+
+      //   let key = Number(prompt("Enter 1 to 4"));
+      //   switch (key) {
+      //     case 1:
+      //       console.log("TV ON");
+      //       break;
+      //     case 2:
+      //       console.log("AC On");
+      //       break;
+      //     case 3:
+      //       console.log("FAN ON");
+      //       break;
+      //     case 4:
+      //       console.log("Light ON");
+      //       break;
+
+      //     default:
+      //       console.log("Invalid key");
+      //   }
+      // }
+
+      // let a =1
+      // while(a<10)
+      // {
+      //   console.log(a++);
+        
+      // }
+
+
+
+      
+    </script>
+  </body>
+</html>

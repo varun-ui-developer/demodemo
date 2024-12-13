@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Landing Page</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.user-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.signup {
+    background-color: #e50914;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #e50914;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.featured {
+    padding: 20px;
+}
+
+.featured h2 {
+    margin-bottom: 20px;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+}
+
+.carousel-item {
+    min-width: 200px;
+    margin-right: 10px;
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Netflix</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">New & Popular</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </nav>
+        <div class="user-menu">
+            <a href="#">Login</a>
+            <a href="#" class="signup">Sign Up</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <h2>Watch anywhere. Cancel anytime.</h2>
+            <a href="#" class="cta-button">Get Started</a>
+        </section>
+
+        <section class="featured">
+            <h2>Trending Now</h2>
+            <div class="carousel">
+                <div class="carousel-item"><img src="image1.jpg" alt="Movie 1"></div>
+                <div class="carousel-item"><img src="image2.jpg" alt="Movie 2"></div>
+                <div class="carousel-item"><img src="image3.jpg" alt="Movie 3"></div>
+                <div class="carousel-item"><img src="image4.jpg" alt="Movie 4"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Questions? Call 1-800-123-4567</p>
+        <p>© 2023 Netflix, Inc.</p>
+    </footer>
+</body>
+</html>
